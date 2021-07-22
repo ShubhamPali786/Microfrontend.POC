@@ -1,0 +1,41 @@
+.totalprice-cn{
+    flex-basis: 25%;
+    box-shadow: 1px 1px 3px 2px #d3d3d3b5;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    height: 215px;
+    position: relative;
+}
+.totalprice-cn > h3{
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+    width: 98%;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.pricelist-cn{
+    display: flex;
+}
+.pricelist-cn h5{
+    flex-basis: 50%;
+}
+.pricelist-cn h5:last-child{
+    text-align: end;
+}
+.pricelist-cn-total{
+    display: flex;
+    position: absolute;
+    width: 94%;
+    bottom: 0;
+    border-top: dashed;
+    border-top: 2px dashed lightgray;
+}
+.pricelist-cn-total h4{
+    flex-basis: 50%;
+    font-weight: bold;
+}
+.pricelist-cn-total h4:last-child{
+    text-align: end;
+}
